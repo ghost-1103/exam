@@ -1,0 +1,132 @@
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: -900px; 
+  }
+  .menu {
+    margin-left: 20px;
+  }
+  .name {
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+  }
+  .icon {
+    margin-left: auto;
+    margin-right: 20px;
+    order: 3;
+  }
+  .small {
+    margin-left: 50px;
+    top: -800px;
+  }
+  .small h1 {
+    font-size: 100px;
+  }
+  .smallest {
+    width: 200px;
+  }
+  .big2 img, .big3 img, .big4 img, .big5 img, .big6 img,
+  .big8 img, .big9 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .big2, .big3, .big4, .big5, .big6, .big7, .big8, .big9 {
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  input {
+    width: 90%;
+    max-width: 500px;
+  }
+  .l {
+    right: 0;
+    top: -200px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    top: -700px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .menu, .name, .icon {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .small {
+    margin-left: 10px;
+    top: -600px;
+  }
+  .small h1 {
+    font-size: 60px;
+  }
+  .smallest {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .big2, .big3, .big4, .big5, .big6, .big7, .big8, .big9 {
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+  .p2, .p3, .p4, .p5 {
+    margin-left: 10px;
+  }
+  input {
+    width: 100%;
+    max-width: none;
+  }
+  .l {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    top: -600px;
+    font-size: 14px;
+  }
+  .small h1 {
+    font-size: 40px;
+  }
+  .smallest {
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+  }
+  .big2 img, .big3 img, .big4 img, .big5 img, .big6 img,
+  .big8 img, .big9 img {
+    width: 100%;
+    height: auto;
+  }
+  .big2, .big3, .big4, .big5, .big6, .big7, .big8, .big9 {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+  .l {
+    max-width: 100%;
+    top: 0;
+  }
+}
